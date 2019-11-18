@@ -1,0 +1,34 @@
+.floor{
+  padding: .15rem;
+  h3{
+    font-size: .2rem;
+    font-weight: normal;
+    text-align: left;
+  }
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    li{
+      width: .7rem;
+      height: 1.05rem;
+      margin-right: .1rem;
+      margin-bottom: .1rem;
+      a{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+          width: .6rem;
+          height: .6rem;
+        }
+        span{
+          font-size: .12rem;
+        } 
+
+      }
+    } 
+  }
+}
